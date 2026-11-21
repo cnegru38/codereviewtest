@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: blanchedalmond;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header,
+.site-footer {
+  background-color: sienna;
+  color: white;
+}
+
+.text {
+  color: sienna;
+}
+
+main {
+  flex: 1;
+}
